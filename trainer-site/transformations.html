@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Transformations | Alex Carter Personal Training</title>
+  <meta name="description" content="Real client transformation stories — weight loss, muscle gain, and athletic performance results from Alex Carter Personal Training." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <nav class="nav-container" aria-label="Primary">
+      <a href="index.html" class="nav-logo">Alex<span>Carter</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="primary-nav">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="transformations.html" class="nav-link active">Results</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======== Page Header ======== -->
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">Client Success Stories</span>
+      <h1>Real People.<br>Real Results.</h1>
+      <p>Every client's journey is different. Here are some of the transformations I've been lucky enough to be part of.</p>
+    </div>
+  </section>
+
+  <!-- ======== Transformations Grid ======== -->
+  <section>
+    <div class="container">
+      <div class="transformations-filter" role="tablist" aria-label="Filter by goal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="weight-loss">Weight Loss</button>
+        <button class="filter-btn" data-filter="muscle-gain">Muscle Gain</button>
+        <button class="filter-btn" data-filter="athletic">Athletic Performance</button>
+      </div>
+
+      <div class="transformations-grid">
+
+        <article class="transformation-card" data-goal="weight-loss">
+          <div class="transformation-image" style="background-image: url('https://picsum.photos/id/1011/600/600')">
+            <span class="transformation-tag">Weight Loss</span>
+          </div>
+          <div class="transformation-body">
+            <div class="transformation-name">Sarah</div>
+            <div class="transformation-duration">6 Months</div>
+            <div class="transformation-stats">
+              <div>
+                <div class="transformation-stat-label">Starting Point</div>
+                <div class="transformation-stat-value">192 lbs, sedentary</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Goal</div>
+                <div class="transformation-stat-value">Lose weight, feel strong</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Results</div>
+                <div class="transformation-stat-value">−35 lbs, +30 lb deadlift</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Training</div>
+                <div class="transformation-stat-value">3x / week</div>
+              </div>
+            </div>
+            <p class="transformation-quote">"I finally feel like myself again — only stronger."</p>
+          </div>
+        </article>
+
+        <article class="transformation-card" data-goal="muscle-gain">
+          <div class="transformation-image" style="background-image: url('https://picsum.photos/id/1025/600/600')">
+            <span class="transformation-tag">Muscle Gain</span>
+          </div>
+          <div class="transformation-body">
+            <div class="transformation-name">David</div>
+            <div class="transformation-duration">9 Months</div>
+            <div class="transformation-stats">
+              <div>
+                <div class="transformation-stat-label">Starting Point</div>
+                <div class="transformation-stat-value">155 lbs, beginner</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Goal</div>
+                <div class="transformation-stat-value">Build muscle, get stronger</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Results</div>
+                <div class="transformation-stat-value">+18 lbs muscle, +80 lb DL</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Training</div>
+                <div class="transformation-stat-value">4x / week</div>
+              </div>
+            </div>
+            <p class="transformation-quote">"I learned more in 2 months than 3 years on my own."</p>
+          </div>
+        </article>
+
+        <article class="transformation-card" data-goal="athletic">
+          <div class="transformation-image" style="background-image: url('https://picsum.photos/id/1027/600/600')">
+            <span class="transformation-tag">Athletic Performance</span>
+          </div>
+          <div class="transformation-body">
+            <div class="transformation-name">Priya</div>
+            <div class="transformation-duration">4 Months</div>
+            <div class="transformation-stats">
+              <div>
+                <div class="transformation-stat-label">Starting Point</div>
+                <div class="transformation-stat-value">Recovering from knee injury</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Goal</div>
+                <div class="transformation-stat-value">Run a half marathon</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Results</div>
+                <div class="transformation-stat-value">Finished 1:58 — pain-free</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Training</div>
+                <div class="transformation-stat-value">3x / week + runs</div>
+              </div>
+            </div>
+            <p class="transformation-quote">"Alex got me back stronger than I was before the injury."</p>
+          </div>
+        </article>
+
+        <article class="transformation-card" data-goal="weight-loss">
+          <div class="transformation-image" style="background-image: url('https://picsum.photos/id/1062/600/600')">
+            <span class="transformation-tag">Weight Loss</span>
+          </div>
+          <div class="transformation-body">
+            <div class="transformation-name">Marcus</div>
+            <div class="transformation-duration">12 Months</div>
+            <div class="transformation-stats">
+              <div>
+                <div class="transformation-stat-label">Starting Point</div>
+                <div class="transformation-stat-value">240 lbs, pre-diabetic</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Goal</div>
+                <div class="transformation-stat-value">Reverse health markers</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Results</div>
+                <div class="transformation-stat-value">−55 lbs, A1C in normal range</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Training</div>
+                <div class="transformation-stat-value">3x / week</div>
+              </div>
+            </div>
+            <p class="transformation-quote">"My doctor took me off two medications. Alex saved my life."</p>
+          </div>
+        </article>
+
+        <article class="transformation-card" data-goal="muscle-gain">
+          <div class="transformation-image" style="background-image: url('https://picsum.photos/id/176/600/600')">
+            <span class="transformation-tag">Muscle Gain</span>
+          </div>
+          <div class="transformation-body">
+            <div class="transformation-name">Jordan</div>
+            <div class="transformation-duration">6 Months</div>
+            <div class="transformation-stats">
+              <div>
+                <div class="transformation-stat-label">Starting Point</div>
+                <div class="transformation-stat-value">Plateaued for 2 years</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Goal</div>
+                <div class="transformation-stat-value">Break through plateau</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Results</div>
+                <div class="transformation-stat-value">+12 lbs lean mass, PRs across the board</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Training</div>
+                <div class="transformation-stat-value">5x / week</div>
+              </div>
+            </div>
+            <p class="transformation-quote">"Smarter programming changed everything. Game changer."</p>
+          </div>
+        </article>
+
+        <article class="transformation-card" data-goal="athletic">
+          <div class="transformation-image" style="background-image: url('https://picsum.photos/id/292/600/600')">
+            <span class="transformation-tag">Athletic Performance</span>
+          </div>
+          <div class="transformation-body">
+            <div class="transformation-name">Elena</div>
+            <div class="transformation-duration">8 Months</div>
+            <div class="transformation-stats">
+              <div>
+                <div class="transformation-stat-label">Starting Point</div>
+                <div class="transformation-stat-value">Club soccer player</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Goal</div>
+                <div class="transformation-stat-value">Add explosive speed</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Results</div>
+                <div class="transformation-stat-value">−0.4s on 40-yd, +6" vertical</div>
+              </div>
+              <div>
+                <div class="transformation-stat-label">Training</div>
+                <div class="transformation-stat-value">4x / week</div>
+              </div>
+            </div>
+            <p class="transformation-quote">"Coach noticed the difference in my first game back."</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CTA ======== -->
+  <section class="cta-banner">
+    <div class="container">
+      <span class="eyebrow">Your Story Is Next</span>
+      <h2 class="section-title">Let's Build <span>Yours</span></h2>
+      <p>Every transformation starts with a single conversation. Book your free consultation today.</p>
+      <a href="contact.html" class="btn btn-primary btn-large">Book Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- ======== Footer ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Alex<span>Carter</span></a>
+          <p>Helping driven people build strength, confidence, and lasting results — one rep at a time.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="transformations.html">Results</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>hello@alexcartertraining.com</p>
+          <p>(555) 123-4567</p>
+          <p>Iron Forge Gym<br/>123 Main St, Austin, TX</p>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <div class="social-row">
+            <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+            <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+            <a href="#" class="social-icon" aria-label="TikTok">TT</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span class="footer-year">2026</span> Alex Carter Training. All rights reserved.</p>
+        <p>Built with grit.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
