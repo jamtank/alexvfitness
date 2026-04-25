@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto y Reservas | Alex Vilariño Entrenamiento Personal</title>
+  <meta name="description" content="Reserva una consulta gratuita con Alex Vilariño Entrenamiento Personal. Ubicado en Austin, TX. Coaching online disponible en todo el mundo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <nav class="nav-container" aria-label="Principal">
+      <a href="index.html" class="nav-logo">Alex<span>Vilariño</span></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="primary-nav">
+        <li><a href="index.html" class="nav-link">Inicio</a></li>
+        <li><a href="about.html" class="nav-link">Sobre Mí</a></li>
+        <li><a href="services.html" class="nav-link">Servicios</a></li>
+        <li><a href="transformations.html" class="nav-link">Resultados</a></li>
+        <li><a href="contact.html" class="nav-link active">Contacto</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Reservar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======== Encabezado de Página ======== -->
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">Contáctame</span>
+      <h1>Hagámoslo<br>Realidad</h1>
+      <p>Reserva una consulta gratuita de 30 minutos, haz una pregunta o simplemente saluda. Respondo en menos de 24 horas.</p>
+    </div>
+  </section>
+
+  <!-- ======== Sección de Contacto ======== -->
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Formulario de Contacto -->
+        <form class="contact-form" novalidate>
+          <span class="eyebrow">Envía un Mensaje</span>
+          <h2 class="section-title" style="margin-bottom: 2rem;">Reserva Tu <span>Llamada Gratis</span></h2>
+
+          <div class="form-success" role="status" aria-live="polite">
+            <strong>Gracias — ¡mensaje recibido!</strong>
+            Me pondré en contacto en 24 horas para programar tu consulta gratuita.
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Nombre <span class="required">*</span></label>
+              <input class="form-input" type="text" id="name" name="name" data-validate="required" autocomplete="name" />
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Correo Electrónico <span class="required">*</span></label>
+              <input class="form-input" type="email" id="email" name="email" data-validate="required,email" autocomplete="email" />
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="phone">Teléfono <span class="required">*</span></label>
+              <input class="form-input" type="tel" id="phone" name="phone" data-validate="required,phone" autocomplete="tel" />
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="trainingType">Entrenamiento Preferido <span class="required">*</span></label>
+              <select class="form-select" id="trainingType" name="trainingType" data-validate="required">
+                <option value="">Selecciona una opción…</option>
+                <option value="1-on-1">1 a 1 Presencial</option>
+                <option value="online">Coaching Online</option>
+                <option value="nutrition">Planificación Nutricional</option>
+                <option value="not-sure">No estoy seguro aún</option>
+              </select>
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="goal">Tu Objetivo Principal <span class="required">*</span></label>
+            <input class="form-input" type="text" id="goal" name="goal" placeholder="p.ej. Perder 9 kg, ganar músculo, entrenar para una carrera…" data-validate="required" />
+            <span class="form-error" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">¿Algo Más?</label>
+            <textarea class="form-textarea" id="message" name="message" rows="5" placeholder="Cuéntame un poco sobre tu historial, horario, lesiones o cualquier otra cosa que deba saber."></textarea>
+            <span class="form-error" aria-live="polite"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Enviar Mensaje</button>
+        </form>
+
+        <!-- Información de Contacto -->
+        <aside class="contact-info">
+          <div class="contact-info-block">
+            <h3>Contáctame Directamente</h3>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">✉</div>
+              <div>
+                <div class="contact-info-label">Correo</div>
+                <div class="contact-info-value">hello@alexcartertraining.com</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">☎</div>
+              <div>
+                <div class="contact-info-label">Teléfono</div>
+                <div class="contact-info-value">(555) 123-4567</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">⚲</div>
+              <div>
+                <div class="contact-info-label">Ubicación</div>
+                <div class="contact-info-value">Iron Forge Gym<br/>123 Main St, Austin, TX 78701</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">⏱</div>
+              <div>
+                <div class="contact-info-label">Horario</div>
+                <div class="contact-info-value">Lun–Vie: 6am – 8pm<br/>Sáb: 8am – 2pm</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <h3>Sígueme</h3>
+            <p style="margin-bottom: 0.5rem;">Consejos de entrenamiento diarios, logros de clientes y contenido detrás de escena.</p>
+            <div class="social-row">
+              <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+              <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+              <a href="#" class="social-icon" aria-label="TikTok">TT</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Mapa -->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps?q=Austin,TX&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa de ubicación del gimnasio">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== Pie de Página ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Alex<span>Vilariño</span></a>
+          <p>Ayudando a personas decididas a desarrollar fuerza, confianza y resultados duraderos — un rep a la vez.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Mí</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="transformations.html">Resultados</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>hello@alexcartertraining.com</p>
+          <p>(555) 123-4567</p>
+          <p>Iron Forge Gym<br/>123 Main St, Austin, TX</p>
+        </div>
+        <div class="footer-col">
+          <h4>Síguenos</h4>
+          <div class="social-row">
+            <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+            <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+            <a href="#" class="social-icon" aria-label="TikTok">TT</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span class="footer-year">2026</span> Alex Vilariño Training. Todos los derechos reservados.</p>
+        <p>Construido con esfuerzo.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
